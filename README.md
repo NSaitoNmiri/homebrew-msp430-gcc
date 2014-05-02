@@ -6,8 +6,8 @@ MSP430 support has been added to mainline [GCC](http://gcc.gnu.org/git/?p=gcc.gi
 
 MSP430 GCC homebrew formulas
 
-`brew tap tduehr/msp430`
+`brew tap nsaitonmiri/msp430`
 
-___only tested on snow leopard currently___
+___only tested on Marvericks currently___
 
-based on [larsimmisch/avr](https://github.com/larsimmisch/homebrew-avr)
+based on [tduehr/msp430](https://github.com/tduehr/homebrew-msp430)

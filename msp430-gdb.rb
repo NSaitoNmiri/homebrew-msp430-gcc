@@ -7,15 +7,15 @@ class Msp430Gdb < Formula
   sha256  '3c24dde332e33bfe2d5980c726d76224ebf8304278112a07bf701f8d2145d9bc'
   head 'git://mspgcc.git.sourceforge.net/gitroot/mspgcc/gdb'
 
-  depends_on 'tduehr/msp430/msp430mcu'
-  depends_on 'tduehr/msp430/msp430-gcc'
+  depends_on 'nsaitonmiri/msp430/msp430mcu'
+  depends_on 'nsaitonmiri/msp430/msp430-gcc'
 
   # --enable-build-with-cxx build with C++ compiler instead of C compiler
   option 'enable-build-with-cxx', 'build with C++ compiler instead of C compiler [untested]'
 
   def patches
     if !build.head?
-      {:p1 => 'http://sourceforge.net/projects/mspgcc/files/Patches/gdb-7.2a/msp430-gdb-7.2a-20111205.patch'}
+      {:p1 => 'https://raw.githubusercontent.com/nsaitonmiri/msp430-gdb-72a-patch/master/msp430-gdb-7.2a-20111205.patch'}
     end
   end
 
