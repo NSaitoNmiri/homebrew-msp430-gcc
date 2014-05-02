@@ -6,7 +6,7 @@ MSP430 support has been added to mainline [GCC](http://gcc.gnu.org/git/?p=gcc.gi
 
 MSP430 GCC homebrew formulas
 
-`brew tap nsaitonmiri/msp430`
+`brew tap nsaitonmiri/msp430-gcc`
 
 ___only tested on Marvericks currently___
 
